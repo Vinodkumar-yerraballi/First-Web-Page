@@ -7,27 +7,95 @@
     color: brown;
 
 }
-#banner {
-    width: 100%;
 
-
-}
 #banner {
     object-fit: cover;
+    background-color:#4f8d11 ;
+
+}
+#ceo{
+    float: right;
+    height: 250px;
+    width: 300px;
+    padding: 0 25px;
+    margin: 20px;
+}
+#about{
+    padding: auto;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    text-align: left;
+    text-transform: capitalize;
+
 }
 
+.job-oper{
+    text-align: center;
+    font-weight: 50px;
+}
 #navbar{
     padding: 5px;
     margin: 5px;
+    padding-left: 2px;
+    padding-right: 10px;
 }
 .location {
     color: rgb(236, 139, 12);
     text-align: center;
+    margin: 8px;
+    padding: 0 12px;
 }
-
+.h3-tag{
+    margin-bottom: 8px;
+    padding: 0 16px;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+a{
+    text-decoration: none;
+}
+.heading{
+    text-align: center;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h2-tag{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+.job-role{
+    margin-bottom: 4px;
+    margin-top: 0px;
+    padding: 8px;
+
+}
+.apply{
+    float: right;
+    display: flex;
+}
+
+#footer{
+    margin-top: 32px;
+    background-color:#999a98;
+    padding: 6px;
+    text-align: center;
+}
+#footer-links{
+    list-style: none;
+
+}
+#footer-links li{
+    display: inline;
+    margin: 0;
+    padding: 0 16px;
+    
+}
+.copy-right{
+    color: rgb(12, 9, 219);
 }
